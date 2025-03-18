@@ -1,0 +1,9 @@
+﻿CREATE OR REPLACE PROCEDURE JONAVA.AUTO_COLLECT IS
+BEGIN
+    data_auto_col.auto_collect;
+EXCEPTION
+    WHEN OTHERS THEN
+        null;
+END;
+
+/
